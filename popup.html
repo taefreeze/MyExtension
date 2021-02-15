@@ -2,25 +2,25 @@
 <html>
 
 <head>
+    <title>Text Highlighter</title>
     <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 
 <body>
 
-    <div id="popup_size">
+    <div id="popup">
         <img src="/images/128.png">
 
         <div>
             <button id="changeColor"></button>
-            <script src="popup.js"></script>
         </div>
 
-        <div id="search_container">
-            <input id="search" type="text" placeholder="type to search" spellcheck="false">
-        </div>
+        <button onclick="highlight('fox')">Highlight</button>
+
+        <div id="inputText"></div>
     </div>
 
-
+    <script src="popup.js"></script>
 </body>
 
 </html>

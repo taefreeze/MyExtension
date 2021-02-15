@@ -1,12 +1,12 @@
 {
-    "name": "Tae Extension Sample",
+    "name": "Text Highlighter",
     "description": "Sample for first Extension",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["management", "storage", "activeTab", "scripting"],
+    "permissions": ["management", "storage", "activeTab", "scripting", "contextMenus"],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {

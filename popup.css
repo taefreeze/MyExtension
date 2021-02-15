@@ -11,8 +11,9 @@ body {
     text-align: center;
 }
 
-#popup_size {
+#popup {
     width: 300px;
+    padding: 4px 6px;
 }
 
 button {
@@ -26,4 +27,8 @@ button {
 
 button.current {
     box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}
+
+.highlight {
+    background-color: yellow;
 }
